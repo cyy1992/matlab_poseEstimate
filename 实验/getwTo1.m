@@ -1,0 +1,6 @@
+function T = getwTo1(x)
+T = [ cos(x(11))*cos(x(12)), - sin(x(10))*sin(x(12)) - cos(x(10))*cos(x(12))*sin(x(11)), cos(x(12))*sin(x(10))*sin(x(11)) - cos(x(10))*sin(x(12)), x(1) - 10*cos(x(11))*cos(x(12)) + 40*cos(x(10))*sin(x(12)) + (1527*sin(x(10))*sin(x(12)))/20 + (1527*cos(x(10))*cos(x(12))*sin(x(11)))/20 - 40*cos(x(12))*sin(x(10))*sin(x(11));
+ cos(x(11))*sin(x(12)),   cos(x(12))*sin(x(10)) - cos(x(10))*sin(x(11))*sin(x(12)), cos(x(10))*cos(x(12)) + sin(x(10))*sin(x(11))*sin(x(12)), x(2) - 40*cos(x(10))*cos(x(12)) - (1527*cos(x(12))*sin(x(10)))/20 - 10*cos(x(11))*sin(x(12)) + (1527*cos(x(10))*sin(x(11))*sin(x(12)))/20 - 40*sin(x(10))*sin(x(11))*sin(x(12));
+         -sin(x(11)),                               -cos(x(10))*cos(x(11)),                              cos(x(11))*sin(x(10)),                                                                                 x(3) + 10*sin(x(11)) + (1527*cos(x(10))*cos(x(11)))/20 - 40*cos(x(11))*sin(x(10));
+                 0,                                                0,                                              0,                                                                                                                                                     1];
+end
